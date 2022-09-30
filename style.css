@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@300;600;700&family=Raleway:ital,wght@1,300&family=Red+Hat+Display:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@300;600;700&family=Raleway:ital,wght@1,300&family=Red+Hat+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@300;600;700&family=Raleway:ital,wght@1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red hat", sans-serif;
+  background-image: url(pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  /*height: 697px;*/
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  margin: 20px;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1f2e55;
+  margin-bottom: 17px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.description {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 20px;
+}
+
+.payment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 48px;
+  margin-right: 48px;
+  background: #f7f9ff;
+  border-radius: 11px;
+  margin-bottom: 32px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+}
+
+.music-icon {
+  padding: 25px 20px 25px 24px;
+}
+
+.p-first {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+  margin-bottom: 6px;
+}
+
+.p-second {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+  padding-right: 24px;
+  padding-top: 40px;
+  padding-bottom: 39px;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  color: #ffffff;
+  margin-left: 48px;
+  margin-right: 48px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cancel {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 20px;
+  color: #717fa6;
+}
+
+.btn:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: #1f2e55;
+}
