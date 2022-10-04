@@ -96,15 +96,13 @@ body {
 }
 
 a {
-  font-style: normal;
+   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
   text-decoration-line: underline;
   color: #382ae1;
-  padding-right: 24px;
-  padding-top: 40px;
-  padding-bottom: 39px;
+  padding: 40px 24px 39px 24px;
 }
 
 .btn {
